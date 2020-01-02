@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green_light">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/home_cardView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/light_grey"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground">
+
+            <TextView
+                android:id="@+id/home_cardViewText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hej!"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/home_cardViewToGoText"
+                android:text="Du mangler ? magasiner!"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="20dp"/>
+
+            <ImageView
+                android:id="@+id/home_cardViewProgressbarImage"
+                android:layout_width="410dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="60dp"
+                android:src="@drawable/egmontfremskridtbar02" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/home_articleViewPager"
+            android:layout_width="425dp"
+            android:layout_height="341dp"
+            android:layout_marginTop="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/home_cardView" />
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabDots"
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="76dp"
+            app:layout_constraintBottom_toTopOf="@+id/parent_layout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:tabBackground="@drawable/tab_selector"
+            app:tabGravity="center"
+            app:tabIndicatorColor="#03A9F4"
+            app:tabIndicatorHeight="0dp" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/parent_layout"
+            android:layout_width="332dp"
+            android:layout_height="233dp"
+            android:layout_marginTop="72dp"
+            android:layout_marginBottom="30dp"
+            app:cardCornerRadius="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/home_articleViewPager">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/home_viewPager_offers"
+                android:layout_width="332dp"
+                android:layout_height="233dp"
+                android:layout_marginBottom="30dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/home_articleViewPager" />
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabDots2"
+                android:layout_width="30dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="110dp"
+                android:layout_gravity="center"
+                app:tabBackground="@drawable/tab_selector"
+                app:tabGravity="center"
+                app:tabIndicatorColor="#03A9F4"
+                app:tabIndicatorHeight="0dp" />
+
+        </android.support.v7.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/home_dineTilbud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="108dp"
+            android:layout_marginLeft="108dp"
+            android:layout_marginTop="44dp"
+            android:text="Tilbud fra mitblad.dk"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/home_articleViewPager" />
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

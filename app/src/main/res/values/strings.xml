@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Hovedopgave</string>
+    <color name="green_light">#C7D59F</color>
+    <color name="light_grey">#EDEDED</color>
+</resources>

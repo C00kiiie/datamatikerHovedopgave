@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "862088475840",
+    "firebase_url": "https://hovedopgave-egmont.firebaseio.com",
+    "project_id": "hovedopgave-egmont",
+    "storage_bucket": "hovedopgave-egmont.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862088475840:android:279f9d4065f2a00af02925",
+        "android_client_info": {
+          "package_name": "com.example.hovedopgave"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862088475840-end7jhmq38gugp19q82jd6nur56uvgfu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxA092PZ65d6_XzWkVER3iLUce8A2_y-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862088475840-end7jhmq38gugp19q82jd6nur56uvgfu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862088475840:android:fc3e83fd39aeb93ef02925",
+        "android_client_info": {
+          "package_name": "com.example.hovedopgave_egmont"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862088475840-end7jhmq38gugp19q82jd6nur56uvgfu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxA092PZ65d6_XzWkVER3iLUce8A2_y-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862088475840-end7jhmq38gugp19q82jd6nur56uvgfu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
